@@ -12,9 +12,9 @@
     -fx-font-weight: bold; 
     -fx-background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
     -fx-padding: 10px; /* Padding interno */
-    -fx-border-color: #ffffff; /* Colore del bordo */
-    -fx-border-width: 1px; /* Spessore del bordo */
-    -fx-border-radius: 5px; /* Raggio del bordo i */
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px; 
+    -fx-border-radius: 5px; 
 }
 
 /* Stile per i pulsanti (Button) */
@@ -34,10 +34,10 @@
 .text-field {
     -fx-font-size: 16px; 
     -fx-padding: 10px; /* Padding interno */
-    -fx-background-color: #ffffff; /* Sfondo bianco per i campi di testo */
+    -fx-background-color: #ffffff; 
     -fx-border-color: #ccc; /* Colore del bordo grigio chiaro */
-    -fx-border-width: 1px; /* Spessore del bordo */
-    -fx-border-radius: 5px; /* Raggio per angoli arrotondati */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px; 
 }
 
 /* Stile per messaggi di errore/informazione */
