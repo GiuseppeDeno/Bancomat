@@ -1,0 +1,54 @@
+/* Stile generale del layout */
+.root {
+    -fx-background-color: #2e2e2e;
+    -fx-font-family: "Arial"; 
+
+}
+
+/* Stile per le etichette (Label) */
+.label {
+    -fx-font-size: 20px; 
+    -fx-text-fill: #ffffff; /* Colore del testo*/
+    -fx-font-weight: bold; 
+    -fx-background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
+    -fx-padding: 10px; /* Padding interno */
+    -fx-border-color: #ffffff; /* Colore del bordo */
+    -fx-border-width: 1px; /* Spessore del bordo */
+    -fx-border-radius: 5px; /* Raggio del bordo i */
+}
+
+/* Stile per i pulsanti (Button) */
+.button {
+    -fx-font-size: 16px; 
+    -fx-background-color: #4CAF50; /* Colore verde */
+    -fx-text-fill: white; 
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px; 
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Colore del pulsante al passaggio del mouse */
+}
+
+/* Stile per i campi di testo (TextField) */
+.text-field {
+    -fx-font-size: 16px; 
+    -fx-padding: 10px; /* Padding interno */
+    -fx-background-color: #ffffff; /* Sfondo bianco per i campi di testo */
+    -fx-border-color: #ccc; /* Colore del bordo grigio chiaro */
+    -fx-border-width: 1px; /* Spessore del bordo */
+    -fx-border-radius: 5px; /* Raggio per angoli arrotondati */
+}
+
+/* Stile per messaggi di errore/informazione */
+.message {
+    -fx-font-size: 16px; 
+   
+    -fx-font-weight: bold; 
+}
+
+/* NOTA  Stile per la scena principale */
+.grid-pane {
+    -fx-padding: 20px; /* Padding esterno per il GridPane */
+    -fx-alignment: center; /* Allineamento al centro */
+}
